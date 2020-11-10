@@ -1,0 +1,512 @@
+* {
+  box-sizing: border-box;
+}
+
+#more {display: none;}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background-color:#070B40;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.header h1 {
+  font-size: 50px;
+  color: white;
+
+}
+
+.header h2 {
+  font-size: 40px;
+  color: white;
+
+}
+
+.header img {
+  padding: 10px;
+  float:left;
+  width: 190px;
+  height: 190px;                    
+  }
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #3498DB;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 70%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 30%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+.rightcolumnImg {
+  background-color: rgb(255, 255, 255);
+  width: 380px;
+  height: 338px;
+}
+/************************************************************************************************/
+/************************************************************************************************/
+/********************************/
+/***** Excellent view *******/
+.imge {
+  background-color: rgb(255, 255, 255);
+  width: 450px;
+  height: 350px;
+}
+
+.lion {
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+  width: 230px;
+  height: 50px;
+  /*border: 4px solid rgb(247, 170, 170);*/
+  top: -180px;
+  left: 30px;
+}
+
+.date {
+  position: relative;
+  text-align: center;
+  font-size: 10px;
+  width: 80px;
+  height: 20px;
+  /*border: 1px solid rgb(29, 158, 57);*/
+  top: -130px;
+  left: 180px;
+  color: #020000;
+}
+/********************************/
+
+/********************************/
+/******* Excellence Print*******/
+.imge1 {
+  background-color: rgb(255, 255, 255);
+  width: 1320px;
+  height: 1023px;
+  position: absolute;
+}
+
+.lion1 {
+  position: relative;
+  text-align: center;
+  font-size: 80px;
+  width: 870px;
+  height: 150px;
+  border: 0px solid rgb(247, 7, 7);
+  top: 510px;
+  left: 30px;
+}
+
+.date1 {
+  position: relative;
+  text-align: center;
+  font-size: 45px;
+  width: 80px;
+  height: 20px;
+  /*border: 1px solid rgb(29, 158, 57);*/
+  top: 640px;
+  left: 530px;
+  color: #020000;
+}
+/********************************/
+/************************************************************************************************/
+/************************************************************************************************/
+/********************************/
+/***** Leadership view *******/
+.leadershipImgeV {
+  background-color: rgb(255, 255, 255);
+  width: 450px;
+  height: 350px;
+}
+
+.leadershipNameV {
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+  width: 250px;
+  height: 40px;
+  border: 0px solid rgb(247, 170, 170);
+  top: -180px;
+  left: 30px;
+}
+
+.leadershipDateV {
+  position: relative;
+  text-align: center;
+  font-size: 10px;
+  width: 80px;
+  height: 20px;
+  /*border: 1px solid rgb(29, 158, 57);*/
+  top: -130px;
+  left: 180px;
+  color: #020000;
+}
+/********************************/
+
+/********************************/
+/******* Leadership Print*******/
+.leadershipImgeP {
+  background-color: rgb(255, 255, 255);
+  width: 1320px;
+  height: 1023px;
+  position: absolute;
+}
+
+.leadershipNameP {
+  position: relative;
+  text-align: center;
+  font-size: 80px;
+  width: 800px;
+  height: 130px;
+  border: 0px solid rgb(247, 7, 7);
+  top: 500px;
+  left: 50px;
+}
+
+.leadershipDateP {
+  position: relative;
+  text-align: center;
+  font-size: 45px;
+  width: 80px;
+  height: 20px;
+  /*border: 1px solid rgb(29, 158, 57);*/
+  top: 630px;
+  left: 530px;
+  color: #020000;
+}
+/********************************/
+/************************************************************************************************/
+/************************************************************************************************/
+/********************************/
+/******* Mentoring view *********/
+.mentoringImgeV {
+  background-color: rgb(255, 255, 255);
+  width: 450px;
+  height: 350px;
+}
+
+.mentoringNameV {
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+  width: 250px;
+  height: 40px;
+  border: 0px solid rgb(247, 170, 170);
+  top: -200px;
+  left: 30px;
+}
+
+.mentoringDateV {
+  position: relative;
+  text-align: center;
+  font-size: 10px;
+  width: 80px;
+  height: 20px;
+  /*border: 1px solid rgb(29, 158, 57);*/
+  top: -130px;
+  left: 180px;
+  color: #020000;
+}
+/********************************/
+
+/********************************/
+/******* Mentoring Print*******/
+.mentoringImgeP {
+  background-color: rgb(255, 255, 255);
+  width: 1320px;
+  height: 1023px;
+  position: absolute;
+}
+
+.mentoringNameP {
+  position: relative;
+  text-align: center;
+  font-size: 80px;
+  width: 800px;
+  height: 130px;
+  border: 0px solid rgb(247, 7, 7);
+  top: 500px;
+  left: 50px;
+}
+
+.mentoringDateP {
+  position: relative;
+  text-align: center;
+  font-size: 45px;
+  width: 80px;
+  height: 20px;
+  /*border: 1px solid rgb(29, 158, 57);*/
+  top: 630px;
+  left: 530px;
+  color: #020000;
+}
+/********************************/
+/************************************************************************************************/
+/************************************************************************************************/
+/********************************/
+/******* Professtionalism view *********/
+.professionImgeV {
+  background-color: rgb(255, 255, 255);
+  width: 450px;
+  height: 350px;
+}
+
+.professionNameV {
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+  width: 280px;
+  height: 40px;
+  border: 0px solid rgb(247, 170, 170);
+  top: -210px;
+  left: 80px;
+}
+
+.professionDateV {
+  position: relative;
+  text-align: center;
+  font-size: 10px;
+  width: 80px;
+  height: 20px;
+  /*border: 1px solid rgb(29, 158, 57);*/
+  top: -160px;
+  left: 200px;
+  color: #020000;
+}
+/********************************/
+
+/********************************/
+/******* Professionalism Print*******/
+.professionImgeP {
+  background-color: rgb(255, 255, 255);
+  width: 1320px;
+  height: 1023px;
+  position: absolute;
+}
+
+.professionNameP {
+  position: relative;
+  text-align: center;
+  font-size: 80px;
+  width: 890px;
+  height: 130px;
+  border: 0px solid rgb(247, 7, 7);
+  top: 400px;
+  left: 200px;
+}
+
+.professionDateP {
+  position: relative;
+  text-align: center;
+  font-size: 42px;
+  width: 250px;
+  height: 50px;
+  border: 0px solid rgb(29, 158, 57);
+  top: 540px;
+  left: 570px;
+  color: #020000;
+}
+/********************************/
+
+
+
+
+#outer
+{
+    width:100%;
+    text-align: center;
+}
+.inner
+{
+    display: inline-block;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Input Text Box */
+input[type=text] {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border:#070B40 ;
+  border-bottom: 2px solid #070B40 ;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: medium;
+}
+
+
+/* Submit Button */
+input[type=submit] {
+  background-color: #070B40;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  font-size: medium;
+  margin: 4px 68px;
+  cursor: pointer;
+}
+
+/* Reset Button 
+input[type=reset] {
+  background-color: #f11b0c;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  font-size: medium;
+  margin: 4px 2px;
+  cursor: pointer;
+}*/
+
+
+/* Add and Remove Button */
+.button {
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 3px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttonAdd {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.buttonAdd:hover{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+
+.buttonRem {
+  background-color: #f11b0c;
+  color: white;
+}
+
+.buttonRem:hover{
+  background-color: white; 
+  color: black; 
+  border: 2px solid#f11b0c;
+}
+
+/*Reset Button*/
+.resetBtn {
+  background-color: #f11b0c;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  font-size: medium;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*Print Button*/
+.printBtn {
+  background-color:#3498DB;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  font-size: medium;
+  margin: 4px 2px;
+  cursor: pointer;
+  left: 50px;
+}
+/********************************/
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+
+.divspace {
+  width: 1400px;
+  height: 1102px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
