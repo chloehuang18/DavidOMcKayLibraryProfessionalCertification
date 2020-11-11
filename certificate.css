@@ -345,8 +345,73 @@ body {
   color: #020000;
 }
 /********************************/
+/************************************************************************************************/
+/************************************************************************************************/
+/********************************/
+/***** Customer view *******/
+.customerImgeV {
+  background-color: rgb(255, 255, 255);
+  width: 450px;
+  height: 350px;
+}
 
+.customerNameV {
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+  width: 230px;
+  height: 50px;
+  /*border: 4px solid rgb(247, 170, 170);*/
+  top: -180px;
+  left: 30px;
+}
 
+.customerDateV {
+  position: relative;
+  text-align: center;
+  font-size: 10px;
+  width: 80px;
+  height: 20px;
+  /*border: 1px solid rgb(29, 158, 57);*/
+  top: -130px;
+  left: 180px;
+  color: #020000;
+}
+
+/********************************/
+
+/********************************/
+/***** Customer Print *******/
+.customerImgeP {
+  background-color: rgb(255, 255, 255);
+  width: 1320px;
+  height: 1023px;
+  position: absolute;
+}
+
+.customerNameP {
+  position: relative;
+  text-align: center;
+  font-size: 80px;
+  width: 870px;
+  height: 150px;
+  border: 0px solid rgb(247, 7, 7);
+  top: 510px;
+  left: 30px;
+}
+
+.customerDateP {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  width: 250px;
+  height: 50px;
+  border: 0px solid rgb(29, 158, 57);
+  top: 650px;
+  left: 515px;
+  color: #020000;
+}
+/********************************/
 
 
 #outer
