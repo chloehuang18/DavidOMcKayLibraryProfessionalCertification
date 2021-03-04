@@ -1,7 +1,7 @@
-# DavidOMcKayLibraryProfessionalCertification
+# David O McKay Library Professional Certification Printing Application
 
 
-* Project Name : David O McKay Library Professional Certification Printing Web Application
+* Project Name : David O McKay Library Professional Certification Printing Application
 * Description : This is a web application that helps the admins print out 5 different professional certifications for the library staff. 
 * Tools : HTML, CSS, JavaScript, Adobe
 * Usage : David O McKay Library Admins
