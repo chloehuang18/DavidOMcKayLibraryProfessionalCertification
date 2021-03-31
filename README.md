@@ -5,7 +5,7 @@
 * Description : This is a web application that helps the admins print out 5 different professional certifications for the library staff. 
 * Tools : HTML, CSS, JavaScript, Adobe
 * Usage : David O McKay Library Admins
-
+* Link to the web page: https://chloehuang18.github.io/DavidOMcKayLibraryProfessionalCertification/
 
 
 
